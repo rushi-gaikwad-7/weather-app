@@ -1,0 +1,102 @@
+body>h1 {
+    font-size: 40px;
+    background: -webkit-linear-gradient(#eee, rgb(175, 57, 57));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#head {
+    margin-left: 20px;
+    margin-bottom: 40px;
+    width: 60%;
+}
+
+input {
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 25px;
+    width: 40%;
+    height: 40px;
+}
+
+input:hover {
+    background-color: whitesmoke;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    width: 20%;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+}
+
+#dataDiv {
+    margin-top: 50px;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+iframe {
+    width: 500px;
+    height: 450px;
+    border-style: 0;
+}
+
+#map {
+    width: 40%;
+    height: 450px;
+}
+#info {
+    padding: 10px;
+    margin-right: 10px;
+    color: black;
+    background-image: url(https://svs.gsfc.nasa.gov/vis/a010000/a012500/a012532/earthweather.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+}
+
+#info>div {
+margin-top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#info>div>div:nth-child(2){
+    margin-top: -90px;
+    text-align: right;
+}
+#info>div>div>h2 {
+    font-size: 50px;
+}
+#info>div>div>h2::first-letter {
+    font-size: 25px;
+    color: red;
+}
+#weekdata{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap:10px;
+    height: 200px;
+    width: 70%;
+    margin-bottom: 100px;
+}
+#box{
+background-image: url(https://wallpaperping.com/wp-content/uploads/2021/03/nice-nawpic-3-e1609104539214.jpg);
+    color: black;
+    box-sizing: border-box;
+   padding-left: 10px;
+}
+#icon{
+text-align: center;
+color: yellow;
+font-size: 50px;
+}
